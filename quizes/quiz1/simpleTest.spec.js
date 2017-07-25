@@ -1,6 +1,6 @@
 const simpleTest = require('./simpleTest.js');
 
-describe.skip('Simple test', () => {
+describe('Simple test', () => {
     it('should return true', () => {
         expect(simpleTest()).toBe(true);
     });
