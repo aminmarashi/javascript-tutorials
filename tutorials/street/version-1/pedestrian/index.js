@@ -3,3 +3,4 @@
 export default function pedestrian() {
   return ['right', 'left']; 
 }
+
