@@ -5,7 +5,5 @@ cache:
     - node_modules
 env:
     - TESTFOLDER=tutorials/unit-tests
-    - TESTFOLDER=tutorials/street/version-1/pedestrian
-    - TESTFOLDER=tutorials/street/version-1/street
-    - TESTFOLDER=tutorials/street/version-1/integration-tests
+    - TESTFOLDER=tutorials/street/version-1
 script: "jest $TESTFOLDER"
