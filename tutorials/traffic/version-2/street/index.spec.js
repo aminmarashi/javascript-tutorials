@@ -2,7 +2,7 @@ import { localPedestrian, badPedestrain, foreignerPedestrian } from '../mock';
 import train from '../train';
 import street from './';
 
-describe.skip('street', () => {
+describe('street', () => {
   it("should guarantee the pedestrians' safety on their good behavior", () => {
     expect(street(localPedestrian)).not.toThrow();
   });

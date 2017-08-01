@@ -1,7 +1,7 @@
 import { localPedestrian, badPedestrain, foreignerPedestrian } from '../mock';
 import train from './';
 
-describe.skip('train', () => {
+describe('train', () => {
   it('should teach a foreigner pedestrian how to cross correctly', () => {
     expect(train(foreignerPedestrian)()).toEqual(['right', 'left']);
   });
