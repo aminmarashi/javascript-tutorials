@@ -1,6 +1,6 @@
 import truthyFunction from './truthyFunction';
 
-describe.skip('truthyFunction unit', () => {
+describe('truthyFunction unit', () => {
   it('should return truthy', () => {
     expect(truthyFunction()).toBeTruthy();
   });
