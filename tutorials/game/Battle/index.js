@@ -5,6 +5,6 @@ export default class Battle {
     this.damage = damage;
   }
   getStats() {
-    return `This is a ${this.weapon} that does 10 damage`;
+    return `This is a ${this.weapon} that does 10 damage.`;
   }
 }
