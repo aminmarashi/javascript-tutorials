@@ -1,6 +1,6 @@
 import Goblin from './';
 
-describe.skip('goblin', () => {
+describe('goblin', () => {
   let monster = new Goblin();
   it('should return the stats of the goblin', () => {
     expect(monster.getMonsterStats()).toEqual(

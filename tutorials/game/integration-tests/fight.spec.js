@@ -1,7 +1,7 @@
 import Goblin from '../Goblin';
 import Battle from '../Battle';
 
-describe.skip('fight', () => {
+describe('fight', () => {
   it('should battle and kill goblin', () => {
     const battle = new Battle('sword', 50);
     expect(battle.getStats()).toEqual('This is a sword that does 50 damage.');

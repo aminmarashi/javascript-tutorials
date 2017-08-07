@@ -1,6 +1,6 @@
 import Battle from './';
 
-describe.skip('battle', () => {
+describe('battle', () => {
   it('should return the stats of the battle instrument', () => {
     let battle = new Battle('gun');
     expect(battle.getStats()).toEqual('This is a gun that does 10 damage.');
