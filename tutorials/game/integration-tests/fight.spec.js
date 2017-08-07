@@ -1,5 +1,5 @@
-import { Goblin } from '../monster';
-import { Battle } from '../battle';
+import { Goblin } from '../Monster';
+import { Battle } from '../Battle';
 
 describe.skip('fight', () => {
   it('should battle and kill goblin', () => {
