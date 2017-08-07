@@ -1,4 +1,4 @@
-import { Battle } from './';
+import Battle from './';
 
 describe.skip('battle', () => {
   it('should return the stats of the battle instrument', () => {
