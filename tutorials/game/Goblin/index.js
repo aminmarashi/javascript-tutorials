@@ -1,5 +1,7 @@
 //
-export default class Goblin {
+import Monster from '../Monster';
+
+export default class Goblin extends Monster {
   constructor(hp) {
     super('Goblin', hp);
     this.maxHP = hp;
