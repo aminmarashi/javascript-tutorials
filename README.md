@@ -16,5 +16,5 @@ You'll need [`Git`](https://www.atlassian.com/git/tutorials/install-git), and yo
 git clone https://github.com/aminmarashi/javascript-tutorials.git
 cd javascript-tutorials
 npm install
-npm development
+npm run development
 ```
